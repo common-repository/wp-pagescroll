@@ -1,0 +1,66 @@
+/*
+wp-pagescroll styles
+styles for wp-pagenavi modified from http://infectedfx.net/10-estilos-de-paginacion-gratis-para-usar-con-wp-pagenavi/2009/
+*/
+.wp-pagenavi {
+	background-color:#155379;
+	overflow:hidden;
+	color:#FFF;
+	text-align:center;
+	padding:0 0 5px 0;
+	position:fixed;
+	bottom:0; 
+	right:0;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-topleft: 4px;
+}
+
+.wp-pagenavi span.pages {
+	display:inline;
+}
+
+.wp-pagenavi img{
+	cursor:pointer;
+	margin-bottom:-11px;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	padding:3px 10px;
+	margin:3px 3px 0 3px;
+	display:inline-block;
+	line-height:14px;
+}
+.wp-pagenavi a {
+	border-width:1px;
+	border-style:solid;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-topleft: 3px;
+}
+.wp-pagenavi a:link, .wp-pagenavi a:visited {
+	color:#237AB2;
+	border-color:#237AB2;
+}
+.wp-pagenavi a:hover {
+	border-color:#FFF;
+}
+.wp-pagenavi span.current, .current_page{
+	font-weight:bold;
+	background-color:#FFF;
+	color:#237AB2;
+	padding-top:7px;
+	line-height:16px;
+	margin-top:0;
+	
+}
